@@ -1,4 +1,4 @@
-# AI modification summary
+﻿# AI modification summary
 
 This is a fork of PvZ-Portable. Changes relative to upstream:
 
@@ -13,8 +13,6 @@ src/Lawn/System/AIFont.cpp
 src/Lawn/System/AIFont.h
 src/Lawn/Widget/AITreeDialog.cpp
 src/Lawn/Widget/AITreeDialog.h
-src/Lawn/Widget/AITreeReplyDialog.cpp   (currently unused; kept for reference)
-src/Lawn/Widget/AITreeReplyDialog.h
 ```
 
 ## Modified files
@@ -43,3 +41,7 @@ All additions are intended to be distributed under
 **LGPL-3.0-or-later**, matching PvZ-Portable. No PopCap/EA game assets are
 included. The `PvZ 2 Regular` font is not bundled; it is loaded from the
 user's system if present.
+
+## Platform
+
+The AI integration is Windows-only (WinHTTP + GDI). Upstream PvZ-Portable remains cross-platform.

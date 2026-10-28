@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (C) 2026 Zhou Qiankang <wszqkzqk@qq.com>
  *
  * SPDX-License-Identifier: LGPL-3.0-or-later
@@ -61,7 +61,6 @@
 #include "Lawn/Widget/AlmanacDialog.h"
 #include "Lawn/Widget/NewUserDialog.h"
 #include "Lawn/Widget/AITreeDialog.h"
-#include "Lawn/Widget/AITreeReplyDialog.h"
 #include "Lawn/System/AIClient.h"
 #include "Lawn/Widget/ContinueDialog.h"
 #include "Lawn/System/ReanimationLawn.h"

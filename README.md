@@ -2,6 +2,11 @@
 
 A PvZ-Portable fork that adds a DeepSeek-backed Wisdom Tree to Plants vs. Zombies GOTY.
 
+> **Platform note:** the AI integration is currently Windows-only because it
+> uses WinHTTP and GDI fonts. The upstream PvZ-Portable code remains
+> cross-platform; building this fork on Linux/macOS would require replacing
+> those two components.
+
 This repository contains **source code only**. It does **not** contain
 `main.pak`, `properties/`, images, music, fonts, save files, or any other
 PopCap/EA game assets. You must supply those from a legally purchased copy of
