@@ -1,0 +1,4 @@
+﻿# Copy to PvZAI.ini and fill in your own key.
+api_key=
+base_url=https://api.deepseek.com
+model=deepseek-chat
